@@ -6,10 +6,11 @@ import InputTab from "@/components/InputTab";
 function Home() {
   return (
     <>
-      <Navbar />
       <div className="flex flex-row" >
-        <SideBar />
-        <InputTab/>
+        <SideBar page={0}/>
+        <div className="w-[80%] h-[40rem]  flex justify-center items-center font-mono">
+            Nothing to preview
+        </div>
       </div>
     </>
   );

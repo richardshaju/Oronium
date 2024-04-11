@@ -70,7 +70,7 @@ export default function DragAndDrop() {
   }
 
   return (
-    <div className="flex overflow-hidden items-center justify-center w-[472px] h-[118px] rounded-[8px] border border-[#29384B66] gap-2 border-dashed">
+    <div className={`${dragActive ? "border-[#C63E4A] " : "border-[#29384B66]"} flex overflow-hidden items-center justify-center w-[472px] h-[118px] rounded-[8px] border  gap-2 border-dashed`}>
       <form
         className={`${
           dragActive ? "bg-[#f5f5f5]" : "bg-white"
