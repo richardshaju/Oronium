@@ -11,11 +11,11 @@ import DragAndDrop from "./DragAndDrop";
 import Tick from "../../public/icons/Tick";
 function InputTab() {
   const media = [
-    <IoLogoInstagram size={20} />,
-    <FaLinkedin size={20} />,
-    <FaFacebook size={20} />,
-    <FaXTwitter size={20} />,
-    <FaWhatsapp size={20} />,
+    <IoLogoInstagram size={20} key={0}/>,
+    <FaLinkedin size={20} key={1}/>,
+    <FaFacebook size={20} key={2}/>,
+    <FaXTwitter size={20} key={3}/>,
+    <FaWhatsapp size={20} key={4}/>,
   ];
 
   const [selectedMedia1, setselectedMedia1]: any = useState(
